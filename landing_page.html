@@ -34,17 +34,18 @@
 <body>
     <div>
         <h1>This domain is for sale!</h1>
+        <p></p>
 
 
 
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xblrlrje" method="post">
             <fieldset id="fs-frm-inputs">
-              <label for="full-name">Name</label>
-              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-              <label for="email-address">Email Address</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-              <label for="message">Message & Offer</label>
-              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <label for="full-name"><h2>Enter your name:</h2></label>
+              <input type="text" name="name" id="full-name" placeholder="John Doe" required="">
+              <label for="email-address">Enter your email address:</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="johndoe@acme.com" required="">
+              <label for="message">Enter your message and offer:</label>
+              <textarea rows="5" name="message" id="message" placeholder="Please leave a message and offer." required=""></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>
             <input type="submit" value="Submit">
